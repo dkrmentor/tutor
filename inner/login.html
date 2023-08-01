@@ -173,6 +173,7 @@
 
 
     <div id="page" class="site  is-header-top-main">
+
         <header id="header" class="header-sections ">
 
             <div class="header-top">
@@ -262,180 +263,52 @@
 
 
 
+
+
+
         <div id="content" class="main_content">
-         <div class="stepping">
-            <ul class="pl-0">
-               <li> <small class="sm-text">STEP 1</small><br /><a href="#step1"> <span class="step"></span></a></li>
-               <li><small class="sm-text">STEP 2</small><br /><a href="#step2"> <span class="step"></span></a></li>
+        
       
-               <li><small class="sm-text">STEP 3</small><br /><a href="#step3"> <span class="step laststep"></span></a>
-               </li>
-         </div>
-      
-         <form id="regForm" action="form_submit.php" method="post">
-      
-      
-            <!-- Step 1: Personal Details -->
-            <div class="tabs" id="step1">
-               <div class="text-center container py-5 px-0 mx-auto">
-                  <div class="row d-flex justify-content-center">
-                     <div class="col-xl-1 col-lg-1 col-md-1 col-12">
-                        <button class="btn__prev text-uppercase float-md-left" type="button" id="prevBtn"
-                           onclick="nextPrev(-1)">Prev</button>
-                        <div class="btn__prev__arrow" id="btn__prev__arrow"></div>
-                     </div>
-                     <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
-                        <div class="row rounded-0 b-0">
-                           <div class="card-body show pt-0 pl-0 pr-0">
-                              <div class="option-title">
-                                 <p>Step 1: Personal Details</p>
-                              </div>
-                              <div class="row justify-content-center">
-                                 <div class="col-md-4">
-                                    <label for="name">Full Name:</label>
-                                    <input type="text" id="name" name="name" required><br>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <label for="email">Email:</label>
-                                    <input type="email" id="email" name="email" required><br>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <label for="phone">Phone:</label>
-                                    <input type="tel" id="phone" name="phone" required><br>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <label for="dob">Date of Birth:</label>
-                                    <input type="date" id="dob" name="dob" required><br>
-                                 </div>
-                              </div>
-                           </div>
+            <form id="loginForm" action="login_submit.php" method="post">
+                <div class="text-center container px-1 py-5 mx-auto">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-xl-10 col-lg-10 col-md-11">
+                            <div class="row rounded-0 b-0">
+                                <div class="card-body show pt-0">
+                                    <div class="option-title">
+                                        <p>Login</p>
+                                    </div>
+                                    <div style="text-align: justify;">
+                                        <div class="col-md-12">
+                                            <label for="email">Email:</label>
+                                            <input type="email" id="email" name="email" required><br>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="password">Password:</label>
+                                            <input type="password" id="password" name="password" required><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                     <div class="col-xl-1 col-lg-1 col-md-1 col-12">
-                        <button class="btn__next text-uppercase float-md-right" type="button" id="nextBtn"
-                           onclick="nextPrev(1)">Next</button>
-                        <div class="btn__right__arrow" id="btn__right__arrow"></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-      
-            <!-- Step 2: Education Information -->
-            <div class="tabs" id="step2">
-               <div class="text-center container px-1 py-5 mx-auto">
-                  <div class="row d-flex justify-content-center">
-                     <div class="col-xl-1 col-lg-1 col-md-1">
-                        <button class="btn__prev text-uppercase float-md-left" type="button" id="prevBtn"
-                           onclick="nextPrev(-1)">Prev</button>
-                        <div class="btn__prev__arrow" id="btn__prev__arrow"></div>
-                     </div>
-                     <div class="col-xl-10 col-lg-10 col-md-11">
-                        <div class="row rounded-0 b-0">
-                           <div class="card-body show pt-0">
-                              <div class="option-title">
-                                 <p>Step 2: Education Information</p>
-                              </div>
-                              <div class="row justify-content-center px-3">
-                                 <div class="col-md-4">
-                                    <label for="degree">Highest Degree Earned:</label>
-                                    <input type="text" id="degree" name="degree" required><br>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <label for="institute">Institution Name:</label>
-                                    <input type="text" id="institute" name="institute" required><br>
-                                 </div>
-                                 <div class="col-md-4">
-                                    <label for="year_of_completion">Year of Completion:</label>
-                                    <input type="number" id="year_of_completion" name="year_of_completion" required><br>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-1 col-lg-1 col-md-1">
-                        <button class="btn__next text-uppercase float-md-right" type="button" id="nextBtn"
-                           onclick="nextPrev(1)">Next</button>
-                        <div class="btn__right__arrow" id="btn__right__arrow"></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-      
-            <!-- Step 3: Payment Information -->
-            <div class="tabs" id="step3">
-               <div class="text-center container px-1 py-5 mx-auto">
-                  <div class="row d-flex justify-content-center">
-                     <div class="col-xl-1 col-lg-1 col-md-1">
-                        <button class="btn__prev text-uppercase float-md-left" type="button" id="prevBtn"
-                           onclick="nextPrev(-1)">Prev</button>
-                        <div class="btn__prev__arrow" id="btn__prev__arrow"></div>
-                     </div>
-                     <div class="col-xl-10 col-lg-10 col-md-11">
-                        <div class="row rounded-0 b-0">
-                           <div class="card-body show pt-0">
-                              <div class="option-title">
-                                 <p>Step 3: Payment Information</p>
-                              </div>
-                              <div class="row justify-content-center px-3">
-                                 <div class="col-md-6">
-                                    <label for="card_number">Card Number:</label>
-                                    <input type="text" id="card_number" name="card_number" required><br>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <label for="expiry_date">Expiry Date:</label>
-                                    <input type="text" id="expiry_date" name="expiry_date" required><br>
-                                 </div>
-                                 <div class="col-md-3">
-                                    <label for="cvv">CVV:</label>
-                                    <input type="number" id="cvv" name="cvv" required><br>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-1 col-lg-1 col-md-1">
-                        <button class="btn__next text-uppercase float-md-right" type="button" id="nextBtn"
-                           onclick="nextPrev(1)">Send</button>
-                        <div class="btn__right__arrow" id="btn__right__arrow"></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-      
-            <!-- Step 4: Thank You Message -->
-            <div class="tabs" id="step4">
-               <div class="text-center container px-1 py-5 mx-auto">
-                  <div class="row d-flex justify-content-center">
-                     <div class="col-xl-12 col-lg-12 col-md-12">
-                        <div class="row rounded-0 b-0">
-                           <div class="card-body show pt-0">
-                              <div class="option-title">
-                                 <p>Thank You for Your Submission!</p>
-                              </div>
-                              <div class="row justify-content-center px-3">
-                                 <div class="col-md-12">
-                                    <p>Your form has been submitted successfully. We will contact you shortly.</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-      
-      
-            <!-- Warning message container -->
-            <div id="warning-message"></div>
-      
-         </form>
+                    </div>
+                </div>
+                <!-- Warning message container -->
+                <div id="warning-message"></div>
+            
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+            
+            
       
       
          <script type='text/javascript' src='assets/js/main/main.js'></script>
         </div><!-- #content -->
 
 
-      
         <footer id="colophon" class="site-footer footer-v1">
 
             <div class="footer-top">
@@ -602,6 +475,7 @@
                 </div>
             </div>
         </footer><!-- #colophon -->
+
 
     </div><!-- #page -->
 

@@ -11194,3 +11194,7 @@ form .row:first-child .floating-label-form-group {
   }
 
 
+  ul#menu-support {
+    display: flex;
+    flex-direction: column;
+}
