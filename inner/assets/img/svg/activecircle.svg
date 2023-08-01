@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104.386" height="30" viewBox="0 0 104.386 30">
+  <g id="Group_560" data-name="Group 560" transform="translate(-315.336 -144)">
+    <!-- Blue line with stroke color changed to blue (#07294d) -->
+    <line id="Line_74" data-name="Line 74" x2="73.636" transform="translate(345.336 159)" fill="none" stroke="#07294d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="4"/>
+    <g id="Ellipse_360" data-name="Ellipse 360" transform="translate(315.336 144)" fill="none" stroke="#07294d" stroke-miterlimit="10" stroke-width="1.5">
+      <!-- Circle with stroke color changed to blue (#07294d) -->
+      <circle cx="15" cy="15" r="15" stroke="#07294d"/>
+      <circle cx="15" cy="15" r="14.25" fill="none"/>
+    </g>
+    <circle id="Ellipse_361" data-name="Ellipse 361" cx="7.5" cy="7.5" r="7.5" transform="translate(322.836 151.5)" fill="#07294d"/>
+  </g>
+</svg>

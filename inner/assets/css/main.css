@@ -1,0 +1,95 @@
+
+    :root {
+        --edubin-content-color: #696868;
+
+
+    }
+
+    .page.woocommerce-account.woocommerce-page .ld-profile-page .page-inner-wrap>.entry-content>.woocommerce {
+        background: #fff;
+        padding: 40px;
+    }
+
+    .site__content {
+        padding: 90px 0;
+    }
+
+    @media screen and (max-width: px) {
+        .site__content {
+            padding: px 0;
+        }
+    }
+
+    .elementor-page .site__content {
+        padding: 0;
+    }
+
+    /* Menu area top padding */
+    .main-navigation ul ul a {
+        width: 232px;
+    }
+
+    /* Top marque message are width */
+    .header-top .contact-info li.massage .top-marquee {
+        width: 300px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .header-top .contact-info li.massage .top-marquee {
+            width: 250px;
+        }
+    }
+
+    /* For logo only */
+    body.home.title-tagline-hidden.has-header-image .custom-logo-link img,
+    body.home.title-tagline-hidden.has-header-video .custom-logo-link img,
+    .header-wrapper .header-menu .site-branding img,
+    .site-branding img.custom-logo {
+        max-width: 180px;
+    }
+
+    @media (max-width: 480px) {
+
+
+        .header-sections .mobile-logo-active.edubin-mobile-logo {
+            display: block;
+        }
+
+        .header-sections .edubin-mobile-logo {
+            display: block;
+        }
+
+        .header-sections .edubin-mobile-logo img {
+            max-width: 50px;
+        }
+
+    }
+
+    .main-navigation ul>li ul li:hover>ul {
+        left: 100%;
+        right: auto;
+    }
+
+    /*  Header title align*/
+    .page-header {
+        text-align: center;
+    }
+
+    /*  Header title height*/
+    /*  Header title height small device*/
+    @media (max-width: 480px) {}
+
+    /* Header title font size*/
+
+    /* Header title font size for mobile device */
+    @media (max-width: 480px) {}
+
+
+
+
+
+    /* ==== Global Courses ====== */
+
+ .header-top .social{
+    align-items: center;
+ }
