@@ -4,9 +4,17 @@
   /* font-family: "Montserrat" !important; */
     font-family: 'Montserrat', sans-serif;
 }
-
+div#content{
+  margin-bottom: 150px !important;
+}
 /*-----------------------------steps bar start-----------------------------*/
-.stepping{ align-content: center; text-align:center;margin-top:34px;}
+.stepping{ display: flex; justify-content: center; align-content: center; text-align:center;margin-top:34px;}
+.stepping ul li {
+  width: 100px;
+}
+.stepping ol {
+  padding: 0px;
+}
 .sm-text{
 color:#750A13 ;
 
