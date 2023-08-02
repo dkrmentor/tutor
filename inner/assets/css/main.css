@@ -4,7 +4,10 @@
 
 
     }
-
+    .main_content{
+        margin: 120px 0px;
+    }
+       
     .page.woocommerce-account.woocommerce-page .ld-profile-page .page-inner-wrap>.entry-content>.woocommerce {
         background: #fff;
         padding: 40px;
